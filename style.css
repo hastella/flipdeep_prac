@@ -1,0 +1,14 @@
+.navbar-brand{
+    color: blue;
+    font-weight: 30px;
+}
+
+.btn-outline-success{
+    color: blue;
+    border-color: blue;
+}
+
+.btn-outline-success:hover {
+    background-color: blue;
+    border-color: blue;
+}
