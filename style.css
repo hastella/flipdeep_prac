@@ -1,14 +1,38 @@
-.navbar-brand{
-    color: blue;
-    font-weight: 30px;
+.brand-logo{
+    width: 110px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 5px;
 }
 
 .btn-outline-success{
-    color: blue;
-    border-color: blue;
+    color: #337ab7;
+    border-color: #337ab7;
 }
 
 .btn-outline-success:hover {
-    background-color: blue;
-    border-color: blue;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.btn-primary{
+    background-color: #1526be;
+    color: white;
+    border-color: #1526be;
+    border-radius: 100px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.cards{
+    display: flex;
+    height: 280px;
+    min-height: 280px;
+}
+
+.card-my{
+    border: none;
 }
