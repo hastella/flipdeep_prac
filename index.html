@@ -1,118 +1,182 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Flipdeep Official</title>
-  <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet" type="text/css"/>
-  <script src="https://kit.fontawesome.com/2c827c8cca.js" crossorigin="anonymous"></script>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Flipdeep Official</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/2c827c8cca.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid" style="padding-left: 90px; padding-right: 90px;">
-        <img class="brand-logo " src="https://cdn.imweb.me/thumbnail/20210915/ee2dd94fcbec2.png">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse mb-2 mt-2" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-0 mb-lg-0 ">
-            <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <nav class="navbar navbar-expand-lg bg-light px-5 pt-3 pb-3">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="#">
+          <img class="brand-logo" src="https://cdn.imweb.me/thumbnail/20210825/d03da19108e92.png" alt="">
+        </a>
+        <div class="collapse navbar-collapse px-4 fw-light" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown px-1">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 SUNGLASSES
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">HAE!</a></li>
                 <li><a class="dropdown-item" href="#">YA!</a></li>
+                <li><a class="dropdown-item" href="#">HAE!</a></li>
                 <li><a class="dropdown-item" href="#">TA!</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">KIDS</a>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="#">KIDS</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">EYEGLASSES</a>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="#">EYEGLASSES</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">ACCESSORIES</a>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="#">ACCESSORIES</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">ABOUT</a>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="#">ABOUT</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item dropdown px-1">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 ACTIVITIES
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">RUNNING</a></li>
-                <li><a class="dropdown-item" href="#">RIDING</a></li>
-                <li><a class="dropdown-item" href="#">GOLF</a></li>
-                <li><a class="dropdown-item" href="#">HIKING</a></li>
+                <li><a class="dropdown-item" href="#">Running</a></li>
+                <li><a class="dropdown-item" href="#">Riding</a></li>
+                <li><a class="dropdown-item" href="#">Golf</a></li>
+                <li><a class="dropdown-item" href="#">Hiking</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active">STORES</a>
+              <a class="nav-link px-1" href="#">STORES</a>
             </li>
           </ul>
-            <div class="navbar">
-              <i class="fa-light fa-bag-shopping"></i>
-              <a href="#" class="nav-item login">Login</a>
-            </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fa-solid fa-bag-shopping fa-lg login"></i></a></li>
+            <li><span class="mx-3"><a class="login" href="#">Login</a></li></span></li>
+          </ul>
         </div>
+      </div>
       </div>
     </nav>
 
     <main>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://cdn.imweb.me/thumbnail/20220503/ae1d88dcf9f84.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://cdn.imweb.me/thumbnail/20220314/6398e796521f2.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="https://cdn.imweb.me/thumbnail/20210926/38a7ba42e0b8b.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fpost.phinf.naver.net%2FMjAyMDA4MDRfMjk1%2FMDAxNTk2NTI1MDU4MDc2.gRvXZKQQnpyTkLDnFLPZpZybeh6mSvK8EMd0Nef3mZkg.pIqPQwqQyVgF8YB-OfrHgcwm6KgvzKUxy5iJMMfWs1Ig.JPEG%2FILVG1MaxOsfJXQ9u7siX7lfZcHRg.jpg&type=sc960_832" class="d-block w-100" alt="...">
-            </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn.imweb.me/thumbnail/20210926/38a7ba42e0b8b.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item">
+            <img
+              src="https://cdn.imweb.me/thumbnail/20220314/6398e796521f2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
       <div class="text-center mb-5">
-        <h3 class="pt-5">YA! 이번 여름을 부탁HAE!</h3>
-        <p>플립딥과 함께 다양한 활동 즐겨보세요!</p>
-        <button type="button" class="btn btn-primary">선구리 보러가기!</button>
+        <h2 class="pt-5">YA! 이번 여름을 부탁HAE!</h2>
+        <p>플립딥과 함께 다양한 활동을 즐겨보세요!</p>
+        <button type="button" class="btn btn-primary">플립딥 제품보기</button>
       </div>
       <div class="cards">
-        <div class="card-my" style="width: 50rem;">
-          <img src="https://cdn.imweb.me/thumbnail/20210918/2bd3f4f6378b2.jpg" class="card-img-top" alt="...">
+        <div class="card-my" style="width: 50rem">
+          <img
+            src="https://cdn.imweb.me/thumbnail/20210918/2bd3f4f6378b2.jpg"
+            class="card-img-top"
+            alt="..."
+          />
         </div>
-        <div class="card-my" style="width: 50rem;">
-          <img src="https://cdn.imweb.me/thumbnail/20210918/8d7618687529d.jpg" class="card-img-top" alt="...">
+        <div class="card-my" style="width: 50rem">
+          <img
+            src="https://cdn.imweb.me/thumbnail/20210918/8d7618687529d.jpg"
+            class="card-img-top"
+            alt="..."
+          />
         </div>
-        <div class="card-my" style="width: 50rem;">
-          <img src="https://cdn.imweb.me/thumbnail/20210918/dd2e517f2852c.jpg" class="card-img-top" alt="...">
+        <div class="card-my" style="width: 50rem">
+          <img
+            src="https://cdn.imweb.me/thumbnail/20210918/dd2e517f2852c.jpg"
+            class="card-img-top"
+            alt="..."
+          />
         </div>
       </div>
     </main>
 
-    <footer>
-
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
-
-</html>  
+</html>
