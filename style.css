@@ -5,6 +5,16 @@
     margin-left: 5px;
 }
 
+.navvar-my{
+    list-style-type: none;
+}
+
+.login{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
 .btn-outline-success{
     color: #337ab7;
     border-color: #337ab7;
